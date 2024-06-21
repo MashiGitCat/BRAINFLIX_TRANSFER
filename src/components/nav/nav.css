@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/fonts/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.header__container {
+  width: 90%;
+  background-color: white;
+}
+@media (min-width: 768px) {
+  .header__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .header__container {
+    margin-left: 1rem;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1280px) {
+  .header__container {
+    margin-top: 1rem;
+  }
+}
+.header__logo-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+.header__logo {
+  background-color: white;
+  height: 25px;
+  width: 120px;
+}
+.header__search-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__search-input {
+  width: 90%;
+  height: 3.2rem;
+  border: 2px solid #e1e1e1;
+  background-color: #fafafa;
+  border-radius: 0.3rem;
+  padding: 0.563rem 0.25rem 0.563rem 3.5rem;
+  background-image: url(../../assets/images/search.svg);
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  background-size: 1.5rem;
+}
+.header__search-input:focus {
+  outline-color: #0095ff;
+}
+@media (min-width: 768px) {
+  .header__search-input {
+    width: 19rem;
+    height: 3rem;
+    background-size: 1.3rem;
+    color: #323232;
+  }
+}
+@media (min-width: 1280px) {
+  .header__search-input {
+    width: 22rem;
+    height: 4rem;
+  }
+}
+.header__search-input::-moz-placeholder {
+  font-family: "Avenir Next", Arial, sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.125rem;
+  letter-spacing: 0.01rem;
+}
+.header__search-input::placeholder {
+  font-family: "Avenir Next", Arial, sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.125rem;
+  letter-spacing: 0.01rem;
+}
+@media (min-width: 768px) {
+  .header__search-input::-moz-placeholder {
+    font-size: 0.9rem;
+  }
+  .header__search-input::placeholder {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1280px) {
+  .header__search-input::-moz-placeholder {
+    font-size: 1rem;
+  }
+  .header__search-input::placeholder {
+    font-size: 1rem;
+  }
+}
+.header__avatar {
+  background-image: url(../../assets/images/Mohan-muruge.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1rem;
+}
+@media (min-width: 768px) {
+  .header__avatar {
+    display: none;
+  }
+}
+.header__avatar-tablet {
+  background-image: url(../../assets/images/Mohan-muruge.jpg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  height: 2.8rem;
+  width: 2.8rem;
+}
+@media (max-width: 768px) {
+  .header__avatar-tablet {
+    display: none;
+  }
+}
+.header__button {
+  background-image: url("../../assets/images/upload.svg");
+  background-color: #0095ff;
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  background-size: 2rem;
+  width: 100%;
+  height: 3.6rem;
+  margin: 1.2rem 1rem 0 0;
+  border-radius: 0.25rem;
+  border-style: none;
+}
+@media (min-width: 768px) {
+  .header__button {
+    width: 27%;
+    height: 3rem;
+    background-size: 1.5rem;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .header__button {
+    height: 4rem;
+    width: 25%;
+    font-size: 1rem;
+  }
+}
+.header__button--link {
+  font-family: "Avenir Next", Arial, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1rem;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .header__content-tablet {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+  }
+}
+@media (min-width: 1280px) {
+  .header__content-tablet {
+    width: 55%;
+  }
+}/*# sourceMappingURL=nav.css.map */
